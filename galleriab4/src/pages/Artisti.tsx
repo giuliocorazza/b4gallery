@@ -42,7 +42,6 @@ export default function Artisti() {
       <h1>Artisti</h1>
 
       {error && <p>{error}</p>}
-      {/* {!error && !artisti && <p>Caricamento...</p>} */}
       {artisti && artisti.length === 0 && <p>Nessun artista.</p>}
 
       {artisti && artisti.length > 0 && (

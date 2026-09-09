@@ -218,9 +218,6 @@ export default function Mostre() {
                               ? formatOpening(mostra.data_apertura)
                               : formatDateRange(mostra.data_inizio, mostra.data_fine)}
                           </p>
-                          {/* <Link to={`/mostre/${mostra.id}`} className="exhibition-cta">
-                            Scopri di più
-                          </Link> */}
                         </div>
                         <span className="exhibition-hover-label">Scopri di più</span>
                       </li>
